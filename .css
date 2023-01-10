@@ -1,0 +1,51 @@
+h1 { 
+
+}
+h1 {
+    text-align: center;
+} 
+h1 {
+    color: blue;
+} 
+background-color:#990000;
+
+background-image: url(hatter.png);
+
+body {    
+    background-position: right;
+}
+body {
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+body {    
+    background-size: cover;
+}
+body {
+  background-image: url(images\Plank.JPGkep001.jpg), url(images\TilosArc.jpg);
+  background-size: 50px 50px;
+  background-repeat: repeat-x, repeat-y;
+}
+body {
+  background-image: 
+    url(images\Plank.JPG), 
+    url(images\TilosArc.jpg);
+  background-size: 50px 50px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+}
+ body { 
+   font-style: italic; /* normal, italic, oblique, inherit */
+} 
+@charset "UTF-8";
+
+body { 
+  /* normal, bold, bolder, lighter, 100, 200, 300, ..., 900, inherit */
+  font-weight: bold; 
+} 
+   body { font-size: 14px; 
+} 
+body { 
+  font: italic bold 14px Arial, Helvetica, sans-serif; 
+}  
+   
