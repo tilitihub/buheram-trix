@@ -2,13 +2,13 @@
 h1{
     font-weight: bolder;
     font-size: 52px;
-    background-color: rgb(103, 146, 34);
-    border: 32px;
+    background-color: rgb(125, 189, 21);
+    border: 42px;
     float: right;
     border-top-right-radius: 22px;
-    
-    color: rgb(51, 1, 1);
-    
+    padding: 15px;
+    color: rgb(88, 4, 4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
     font-weight: bolder;
@@ -17,7 +17,7 @@ h2{
     border: 32px;
     float: left;
     border-bottom-right-radius: 22px;
-    
+    padding: 15px;
 }
 h3{
     font-weight: bolder;
@@ -26,7 +26,7 @@ h3{
     border: 32px;
     float: right;
     border-bottom-right-radius: 22px;
-    
+    padding: 15px;
 }
 h4{
     font-weight: bolder;
@@ -35,17 +35,32 @@ h4{
     border: 32px;
     float: left;
     border-bottom-right-radius: 22px;
-    
+    padding: 15px;
 }
+
 h5{
-    font-size: 17px;
+    font-size: 4px;
     background-color: rgb(176, 221, 104);
-    border: 32px;
+    border: 42px;
     float: left;
     border-top-right-radius: 22px;
     text-shadow: 70%;
     color: rgb(137, 7, 7);
+    padding: 15px;
 }
 body {
-    background-color: rgb(241, 202, 176);
+    background-color: rgb(88, 148, 218);
+    background-size: cover;
+    background-image: url(images/TilosArc.jpg), url(images/Plank.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+.conti {
+    background-image: url(images/plank.jpg);
+    border: salmon;
+    margin: 90px;
+    padding: 25px;
 }
